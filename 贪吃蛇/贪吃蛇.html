@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>贪吃蛇</title>
+	<style type="text/css">
+	 /*全部元素的样式*/
+    table,tr,td{
+       border:1px solid orange;
+        /*但变现*/
+       border-collapse: collapse;;
+      }
+      td{
+      	  width: 50px;
+      	  height: 50px;
+          text-align:center;
+        }
+	</style>
+</head>
+<body>
+<h1 id="info"></h1>
+<script type="text/javascript" src="underscore-min.js"></script>
+<script type="text/javascript" src="Game.js"></script>
+<script type="text/javascript" src="Snake.js"></script>
+<script type="text/javascript" src="Food.js"></script>
+<script type="text/javascript">
+//初始化游戏
+ var game=new Game();
+</script>
+</body>
+</html>
